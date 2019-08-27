@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:b71712cb2ed6aed434a37670a83bbe92:2078aa9d6ef4e59d0296c4831fc380c9:e332299a3876969ee9d9c37cc87fa70a$
+#
+:format=40300
+:texture=BloodAtlas.png
+:size=1024x128
+:pivotpoints=enabled
+:borders=disabled
+
+BLHMA0;0;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMB0;128;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMC0;256;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMD0;384;0;128;128; 0.5;0.5; 0;0;0;0
+BLHME0;512;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMF0;640;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMG0;768;0;128;128; 0.5;0.5; 0;0;0;0
+BLHMH0;896;0;128;128; 0.5;0.5; 0;0;0;0

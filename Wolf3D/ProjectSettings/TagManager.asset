@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Acquired
+  - FlashingPanel
+  - WeaponHolder
+  - Stats
+  - Food
+  - Medkit
+  - AudioFX
+  - ExtraLife
+  - Guard
+  - WPPathfinder
+  - Waypoint
+  - Obst
+  - Enemy
+  - Wall
+  - Ground
+  - Door
+  - BloodParticles
+  - Key
+  - Crown
+  - Chest
+  - Chalice
+  - Cross
+  - Chaingun
+  - SMG
+  - Ammo
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Item
+  - Enemy
+  - Player
+  - AINavSphere
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

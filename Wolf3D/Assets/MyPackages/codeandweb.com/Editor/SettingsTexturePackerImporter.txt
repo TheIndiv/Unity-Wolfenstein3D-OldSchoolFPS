@@ -1,0 +1,132 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/BloodAtlas.tpsheet
+- Assets/BloodSheet.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/SpriteSheetAll.tpsheet
+- Assets/Wolf3D Assets/Sprites/Adolf Hitler/AdolfHitlerSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/BJ Yeah/BJYeahSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Decoration/DecorationSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Dog/DogSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Dr Schabbs/DrSchabbsSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Fake Hitler/FakeHitlerSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/General Fettgesicht/GeneralFettgesichtSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Gretel Grosse/GretelGrosseSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Guard/GuardSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Hans Grosse/HansGrosseSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Mutant/MutantSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Officer/OfficerSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Otto Giftmacher/OttoGiftmacherSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Pac-Man Ghost/Pac-ManGhostSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Pickups/PickupSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Angel of Death/AngelofDeathSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Barnacle Wilhelm/BarnacleWilhelmSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Bat/BatSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Death Knight/DeathKnightSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Decorations/DecorationsSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Devil Incarnate/DevilIncarnateSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Dog/DogSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Effects/EffectSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Guard/GuardSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Officer/OfficerSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Pickups/PickupSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Professor Quarkblitz/ProfessorQuarkblitzSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Spectre 2/Spectre2SpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Spectre/SpectreSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/SS/SSSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Submarine Willy/SubmarineWillySpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/The Axe/TheAxeSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/The Robot/TheRobotSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Trans Grosse/TransGrosseSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Ubermutant/UbermutantSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Weapon Animations/WeaponAnimationSpriteSheet.tpsheet
+- Assets/Wolf3D Assets/Sprites/SS/SSSpriteSheet.tpsheet
+textureFileNames:
+- Assets/BloodAtlas.png
+- Assets/BloodSheet.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/SpriteSheetAll.png
+- Assets/Wolf3D Assets/Sprites/Adolf Hitler/AdolfHitlerSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/BJ Yeah/BJYeahSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Decoration/DecorationSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Dog/DogSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Dr Schabbs/DrSchabbsSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Fake Hitler/FakeHitlerSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/General Fettgesicht/GeneralFettgesichtSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Gretel Grosse/GretelGrosseSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Guard/GuardSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Hans Grosse/HansGrosseSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Mutant/MutantSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Officer/OfficerSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Otto Giftmacher/OttoGiftmacherSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Pac-Man Ghost/Pac-ManGhostSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Pickups/PickupSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Angel of Death/AngelofDeathSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Barnacle Wilhelm/BarnacleWilhelmSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Bat/BatSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Death Knight/DeathKnightSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Decorations/DecorationsSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Devil Incarnate/DevilIncarnateSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Dog/DogSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Effects/EffectSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Guard/GuardSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Officer/OfficerSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Pickups/PickupSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Professor Quarkblitz/ProfessorQuarkblitzSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Spectre 2/Spectre2SpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Spectre/SpectreSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/SS/SSSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Submarine Willy/SubmarineWillySpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/The Axe/TheAxeSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/The Robot/TheRobotSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Trans Grosse/TransGrosseSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Ubermutant/UbermutantSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Weapon Animations/WeaponAnimationSpriteSheet.png
+- Assets/Wolf3D Assets/Sprites/SS/SSSpriteSheet.png
+normalmapFileNames:
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

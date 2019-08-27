@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:cfecc3097db16e195ff6d591e19eb712:8d064b8afa3c10e830a698630e6ad1cd:02b2e4bb6344b374d3c008cffef81868$
+#
+:format=40300
+:texture=BloodSheet.png
+:size=128x512
+:pivotpoints=enabled
+:borders=disabled
+
+BSPRA0;1;440;121;71; 0.5;0.5; 0;0;0;0
+BSPRB0;1;367;121;71; 0.5;0.5; 0;0;0;0
+BSPRC0;1;294;121;71; 0.5;0.5; 0;0;0;0
+BSPRD0;1;221;121;71; 0.5;0.5; 0;0;0;0
+BSPRE0;1;148;121;71; 0.5;0.5; 0;0;0;0
+BSPRF0;1;75;121;71; 0.5;0.5; 0;0;0;0
+BSPRG0;1;2;121;71; 0.5;0.5; 0;0;0;0
+BSPRH0;1;2;121;71; 0.5;0.5; 0;0;0;0

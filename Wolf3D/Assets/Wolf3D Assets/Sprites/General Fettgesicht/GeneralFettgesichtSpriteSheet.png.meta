@@ -1,0 +1,378 @@
+fileFormatVersion: 2
+guid: a47d668ab7f8b7d48b0e059bdfed5b2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5959329404470203222
+    second: WSPR0396
+  - first:
+      213: -1103248199633697529
+    second: WSPR0397
+  - first:
+      213: 7948226502853471811
+    second: WSPR0398
+  - first:
+      213: 6681113335009244337
+    second: WSPR0399
+  - first:
+      213: -3722237598400498504
+    second: WSPR0400
+  - first:
+      213: -6258485116668287340
+    second: WSPR0401
+  - first:
+      213: -9096668996440391536
+    second: WSPR0402
+  - first:
+      213: 6661314331343492045
+    second: WSPR0403
+  - first:
+      213: 4232630150376171035
+    second: WSPR0404
+  - first:
+      213: -8222997045770122859
+    second: WSPR0405
+  - first:
+      213: 6400180589082802627
+    second: WSPR0406
+  - first:
+      213: -6079004581129756008
+    second: WSPR0407
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WSPR0396
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 4
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b971e86fdca86db4386d3951e61e8c34
+      internalID: 5959329404470203222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0397
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 70
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47ac1fffc7f7cf419fca49147b6f950
+      internalID: -1103248199633697529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0398
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 63
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83348dd13ae5134da26bce93be23bfc
+      internalID: 7948226502853471811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0399
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaf55ebb1279c3439ddea46a31ec711
+      internalID: 6681113335009244337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0400
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 136
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5423729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d51d4dca890b445889243f07526b86
+      internalID: -3722237598400498504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0401
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 63
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d533d776ed59824f9304dcb4da80f35
+      internalID: -6258485116668287340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0402
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 136
+        width: 63
+        height: 59
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.5423729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d44f2304e903094391da6a12923bdfa
+      internalID: -9096668996440391536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0403
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 197
+        width: 62
+        height: 58
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.55172414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cef70ec4feb20647b2333bfcd8c264b
+      internalID: 6661314331343492045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0404
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 70
+        width: 63
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396445b85d4487945bd7de151e6447a8
+      internalID: 4232630150376171035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0405
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.52459013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d709dbfef0564fafa77ae5c94f041
+      internalID: -8222997045770122859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0406
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 204
+        width: 64
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037107f94f61cec408163396649d1118
+      internalID: 6400180589082802627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR0407
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 229
+        width: 64
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 1.2307693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e02b80a796676f4a9903d8f5193c6df
+      internalID: -6079004581129756008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 022d6c6434112e5498b1aefe5ba4ab7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

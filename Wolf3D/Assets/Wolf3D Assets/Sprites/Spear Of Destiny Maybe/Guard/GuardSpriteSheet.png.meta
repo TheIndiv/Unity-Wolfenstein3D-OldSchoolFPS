@@ -1,0 +1,1266 @@
+fileFormatVersion: 2
+guid: 8c4c7316ce9c2cf4db165a7a09f872c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3976463867688866642
+    second: WSPR2054
+  - first:
+      213: -5417467301269247504
+    second: WSPR2055
+  - first:
+      213: -8444265214859048035
+    second: WSPR2056
+  - first:
+      213: -3442149915624997164
+    second: WSPR2057
+  - first:
+      213: -8232488967096076069
+    second: WSPR2058
+  - first:
+      213: -8381884907794942181
+    second: WSPR2059
+  - first:
+      213: 7302071015427788519
+    second: WSPR2060
+  - first:
+      213: -4386325469016464268
+    second: WSPR2061
+  - first:
+      213: -2967541877097615798
+    second: WSPR2062
+  - first:
+      213: -4923725039730848608
+    second: WSPR2063
+  - first:
+      213: 8744127025914435596
+    second: WSPR2064
+  - first:
+      213: -5548368775657058183
+    second: WSPR2065
+  - first:
+      213: -8130912793424181172
+    second: WSPR2066
+  - first:
+      213: 1612977314207059901
+    second: WSPR2067
+  - first:
+      213: 1666066342482453420
+    second: WSPR2068
+  - first:
+      213: -7297004195614619247
+    second: WSPR2069
+  - first:
+      213: -3430411916169396141
+    second: WSPR2070
+  - first:
+      213: 2243410307782885969
+    second: WSPR2071
+  - first:
+      213: -728048064225804214
+    second: WSPR2072
+  - first:
+      213: -222144653416972422
+    second: WSPR2073
+  - first:
+      213: -3381991025210327632
+    second: WSPR2074
+  - first:
+      213: -4292536271566961519
+    second: WSPR2075
+  - first:
+      213: -605407504927514536
+    second: WSPR2076
+  - first:
+      213: -1360482924749075887
+    second: WSPR2077
+  - first:
+      213: -4204546978982662783
+    second: WSPR2078
+  - first:
+      213: 455422637516237034
+    second: WSPR2079
+  - first:
+      213: 1095759549355816160
+    second: WSPR2080
+  - first:
+      213: -5818641968252934695
+    second: WSPR2081
+  - first:
+      213: -1348683611200442562
+    second: WSPR2082
+  - first:
+      213: -5521375241502127295
+    second: WSPR2083
+  - first:
+      213: -5979297709433301945
+    second: WSPR2084
+  - first:
+      213: 7783822728477054360
+    second: WSPR2085
+  - first:
+      213: 6880589920257556895
+    second: WSPR2086
+  - first:
+      213: 1746126499191281162
+    second: WSPR2087
+  - first:
+      213: 3256476081551036008
+    second: WSPR2088
+  - first:
+      213: 729522239544268314
+    second: WSPR2089
+  - first:
+      213: 3744888327318435708
+    second: WSPR2090
+  - first:
+      213: 4537513326523674305
+    second: WSPR2091
+  - first:
+      213: 642434796245257112
+    second: WSPR2092
+  - first:
+      213: 2026488291189614824
+    second: WSPR2093
+  - first:
+      213: 5881203572782067210
+    second: WSPR2094
+  - first:
+      213: -1343590704264576298
+    second: WSPR2095
+  - first:
+      213: 6655855024559704955
+    second: WSPR2096
+  - first:
+      213: -3074647652128383012
+    second: WSPR2097
+  - first:
+      213: -8682664796075339690
+    second: WSPR2098
+  - first:
+      213: 7878777225365626373
+    second: WSPR2099
+  - first:
+      213: 8366955294539552108
+    second: WSPR2100
+  - first:
+      213: -5413951090452119509
+    second: WSPR2101
+  - first:
+      213: 1427645963751861307
+    second: WSPR2102
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WSPR2054
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 333
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.5614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab008f034d48f479ecd87974939850
+      internalID: -3976463867688866642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2055
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 368
+        width: 19
+        height: 52
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf39435aba5f3b847bec27658a3ac52b
+      internalID: -5417467301269247504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2056
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 168
+        width: 15
+        height: 52
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bd7650aed61ed44abd500946526a27
+      internalID: -8444265214859048035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2057
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 262
+        width: 18
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dabc07546ece27458584ab3ae7f768e
+      internalID: -3442149915624997164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2058
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 285
+        width: 23
+        height: 57
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.5614035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd37aa910a64f447a3184d60b03b149
+      internalID: -8232488967096076069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2059
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 297
+        width: 18
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f44c9e76c156ca49a830b85d3bd04db
+      internalID: -8381884907794942181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2060
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 125
+        width: 15
+        height: 52
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ac35575f1dda4f9890624edb44ce6
+      internalID: 7302071015427788519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2061
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 316
+        width: 19
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3359a9b80bfa4fa44abeb20acc9c47c6
+      internalID: -4386325469016464268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2062
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 302
+        width: 23
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b3240218ab8d54c94adbf37ff9fe26
+      internalID: -2967541877097615798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2063
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 403
+        width: 27
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf95c5df8b7ac14a9b9fba4842c6d5a
+      internalID: -4923725039730848608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2064
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 460
+        width: 29
+        height: 51
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ee974621a84204497fac4ad85a00e1
+      internalID: 8744127025914435596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2065
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 392
+        width: 29
+        height: 62
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd84b7f4e2898f4184d670b9a180a35
+      internalID: -5548368775657058183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2066
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 232
+        width: 23
+        height: 51
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7588eb8fcd3232c4580f875266be2178
+      internalID: -8130912793424181172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2067
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 370
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bd9dff7c97f7c41b43b44f7549c5d9
+      internalID: 1612977314207059901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2068
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 407
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61856f1e5d45d334fa0594778421f516
+      internalID: 1666066342482453420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2069
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 460
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cd15a3c05627143bc1ac2b401b5be7
+      internalID: -7297004195614619247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2070
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 230
+        width: 23
+        height: 51
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73916f22fe9fc354ca3cbdf68c16d9d2
+      internalID: -3430411916169396141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2071
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 222
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f849be35854264e942358e04d13d9f
+      internalID: 2243410307782885969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2072
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 179
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59c0eac2f3524a4b81a00cbe42a9b41
+      internalID: -728048064225804214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2073
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e410a4b88234eb84a9943e0b8a5593b2
+      internalID: -222144653416972422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2074
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 315
+        width: 23
+        height: 51
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92176f34deda63b4593ae8483f54f8bf
+      internalID: -3381991025210327632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2075
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 261
+        width: 18
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae97faf5ee33de47abce68714d50e78
+      internalID: -4292536271566961519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2076
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 249
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee43f27a01b28e4c89c0ac78d5822da
+      internalID: -605407504927514536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2077
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 258
+        width: 18
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ac21c9788a4124ea1518e32d5d7c59
+      internalID: -1360482924749075887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2078
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 23
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077249739cab96848a97e40cd8ec6d98
+      internalID: -4204546978982662783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2079
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 344
+        width: 29
+        height: 61
+      alignment: 9
+      pivot: {x: 0.55172414, y: 0.52459013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5288815b8d8949c4fbe50ac84e7ed1ff
+      internalID: 455422637516237034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2080
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 456
+        width: 32
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58181816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01374a2a29c3cf4499dffd5636d99a9d
+      internalID: 1095759549355816160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2081
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 351
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.64}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b940f4f6fcefd04e8ed397ccaac0fde
+      internalID: -5818641968252934695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2082
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 312
+        width: 23
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9ceba06b87045418938bdd93e80052
+      internalID: -1348683611200442562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2083
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 370
+        width: 27
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29817471d7e6314f98040f729a7c983
+      internalID: -5521375241502127295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2084
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d6a53377b68904583983639d305cfd
+      internalID: -5979297709433301945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2085
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 354
+        width: 27
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d004e37a58844fa4bbd30939ca982cda
+      internalID: 7783822728477054360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2086
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 275
+        width: 23
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532a0f543cf0fc34cb26bca888b0bfb6
+      internalID: 6880589920257556895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2087
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 249
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b6e33b391518f46ad51b6e84743b1e
+      internalID: 1746126499191281162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2088
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 210
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade2e5ec629a9cf4d956f1ea27b4bb87
+      internalID: 3256476081551036008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2089
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 263
+        width: 19
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4991b7d5b22a4943a00484952720258
+      internalID: 729522239544268314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2090
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 317
+        width: 23
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7a9a10fd4a038478836b0b4b48be28
+      internalID: 3744888327318435708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2091
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 244
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9274f343ba74543a259133469ece9b
+      internalID: 4537513326523674305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2092
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4c6111b01eabc40a463fe68c0bd372
+      internalID: 642434796245257112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2093
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 18
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6ffdd2797c2fe49aadfbf34337d019
+      internalID: 2026488291189614824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2094
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 456
+        width: 30
+        height: 55
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.58181816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdc1e00e5398ed459e67a3a8c3506f5
+      internalID: 5881203572782067210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2095
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 468
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.375, y: 0.6744186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5140db359dd8e478382587dea4d514
+      internalID: -1343590704264576298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2096
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 35
+        height: 42
+      alignment: 9
+      pivot: {x: 0.37142858, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41078060fad083458cd4cdc485e8c71
+      internalID: 6655855024559704955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2097
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 477
+        width: 29
+        height: 34
+      alignment: 9
+      pivot: {x: 0.13793103, y: 0.7941176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb933feb4669a446897e184da509f79
+      internalID: -3074647652128383012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2098
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 422
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.72727275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4e7943fa8aa104ca5de52365c7b7b9
+      internalID: -8682664796075339690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2099
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 492
+        width: 43
+        height: 19
+      alignment: 9
+      pivot: {x: 0.27906978, y: 1.6842105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8fc7a0693cc8141af934c5a19c7b57
+      internalID: 7878777225365626373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 341
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd751b2ebc9dfe4db023d5f7e63f942
+      internalID: 8366955294539552108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2101
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 423
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c62eeeee8b7ce94388322f9308c2527
+      internalID: -5413951090452119509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WSPR2102
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 407
+        width: 28
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4642857, y: 0.627451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0f3e8d8e46b1f49b28d898469dcb18
+      internalID: 1427645963751861307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ad1825c0c05d437469841e5db7ed93e3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
