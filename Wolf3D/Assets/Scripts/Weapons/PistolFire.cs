@@ -103,7 +103,7 @@ public class PistolFire : MonoBehaviour
 				raycastHit.transform.parent.GetComponent<Enemy>().Damage(newDamage);
 				//Debug.Log(enemy);
 				//if (enemy != null) enemy.Damage(newDamage);
-				particleDecalPool.spawnBloodParticles(newDamage);
+				particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform);
 			}
 		}
 	}

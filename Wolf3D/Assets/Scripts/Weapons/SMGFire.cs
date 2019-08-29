@@ -108,7 +108,8 @@ public class SMGFire : MonoBehaviour
 				raycastHit.transform.parent.GetComponent<Enemy>().Damage(newDamage);
 				//IDamageable<float> enemy = raycastHit.transform.gameObject.GetComponent<IDamageable<float>>();
 				//if (enemy != null) enemy.Damage(newDamage);
-				particleDecalPool.spawnBloodParticles(newDamage);
+				//particleDecalPool.spawnBloodParticles(newDamage);
+				particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform);
 			}
 		}
 	}
