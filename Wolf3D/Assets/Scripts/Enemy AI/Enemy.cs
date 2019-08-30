@@ -16,6 +16,7 @@ public abstract class Enemy : MonoBehaviour, IDamageable<float>
 	[HideInInspector]
 	public Animator anim;
 	private SpriteRenderer enemySprite;
+	public BoxCollider enemyCollider;
 	
 	private float fieldOfVision = 170;
 	

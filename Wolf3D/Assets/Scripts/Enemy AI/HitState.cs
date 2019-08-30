@@ -32,6 +32,9 @@ public class HitState : BaseState
 			if (hitFinished)
 			{
 				hitFinished = false;
+				
+				if (enemy.enemyHealth <= 0) return State.Dead;
+				
 				return State.Chase;
 			} else
 			{

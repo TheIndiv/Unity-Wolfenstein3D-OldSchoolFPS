@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class DeadState : BaseState
 {
@@ -18,6 +19,10 @@ public class DeadState : BaseState
 		{
 			deadAnimPlayed = true;
 			enemy.anim.SetTrigger(enemy.deathHash);
+			enemy.gameObject.GetComponent<Enemy>().enabled = false;
+			enemy.gameObject.GetComponent<RichAI>().enabled = false;
+			enemy.gameObject.GetComponent<AIDestinationSetter>().enabled = false;
+			enemy.enemyCollider.enabled = false;
 		}
 		return State.Dead;
 	}
