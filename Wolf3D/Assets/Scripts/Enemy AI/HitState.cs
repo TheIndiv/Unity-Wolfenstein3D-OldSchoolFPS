@@ -19,7 +19,7 @@ public class HitState : BaseState
 	
 	public override State Tick()
 	{
-		if (enemy.isHit) 
+		if (enemy.isHit && enemy.enemyHealth > 0)
 		{
 			StaticCoroutine.StopCoroutine(currentCoroutine);
 			CR_Running = false;

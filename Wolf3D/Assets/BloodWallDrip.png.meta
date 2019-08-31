@@ -1,0 +1,1613 @@
+fileFormatVersion: 2
+guid: f4a0645a878feba468ff15742889f08c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3957748109617715038
+    second: BloodDrip0
+  - first:
+      213: -3461695677184916421
+    second: BloodDrip1
+  - first:
+      213: -5914476032551359130
+    second: BloodDrip2
+  - first:
+      213: 7932965543772349537
+    second: BloodDrip3
+  - first:
+      213: 862938890601119190
+    second: BloodDrip4
+  - first:
+      213: 4492101495959028028
+    second: BloodDrip5
+  - first:
+      213: 4342355179316655720
+    second: BloodDrip6
+  - first:
+      213: -2074340758454490657
+    second: BloodDrip7
+  - first:
+      213: -7943632605588277376
+    second: BloodDrip8
+  - first:
+      213: 1624310093992398480
+    second: BloodDrip9
+  - first:
+      213: -1218474494224348440
+    second: BloodDrip10
+  - first:
+      213: 4183165612302932778
+    second: BloodDrip11
+  - first:
+      213: -8352024398513171213
+    second: BloodDrip12
+  - first:
+      213: 32049923276879887
+    second: BloodDrip13
+  - first:
+      213: 7174320851121248939
+    second: BloodDrip14
+  - first:
+      213: -6166201522042780000
+    second: BloodDrip15
+  - first:
+      213: 1839806221206691197
+    second: BloodDrip16
+  - first:
+      213: 9069033381629062517
+    second: BloodDrip17
+  - first:
+      213: 3894253933526652921
+    second: BloodDrip18
+  - first:
+      213: -8067395030257485063
+    second: BloodDrip19
+  - first:
+      213: 2185202221499945520
+    second: BloodDrip20
+  - first:
+      213: 1258229093406138539
+    second: BloodDrip21
+  - first:
+      213: 5751831458363590638
+    second: BloodDrip22
+  - first:
+      213: -3454590364115833767
+    second: BloodDrip23
+  - first:
+      213: -5537406953475108544
+    second: BloodDrip24
+  - first:
+      213: -5150670794974144619
+    second: BloodDrip25
+  - first:
+      213: 140248084193821277
+    second: BloodDrip26
+  - first:
+      213: 5376246191213170478
+    second: BloodDrip27
+  - first:
+      213: 3421133638957967790
+    second: BloodDrip28
+  - first:
+      213: -5817861903683844533
+    second: BloodDrip29
+  - first:
+      213: 5987648391800686678
+    second: BloodDrip30
+  - first:
+      213: 1546685550967737109
+    second: BloodDrip31
+  - first:
+      213: -1130639376611491953
+    second: BloodDrip32
+  - first:
+      213: -4680448640814878923
+    second: BloodDrip33
+  - first:
+      213: 5101562603938052484
+    second: BloodDrip34
+  - first:
+      213: 7134836837875615563
+    second: BloodDrip35
+  - first:
+      213: 5308649282446219732
+    second: BloodDrip36
+  - first:
+      213: -3049876487860667624
+    second: BloodDrip37
+  - first:
+      213: 3528640108045004863
+    second: BloodDrip38
+  - first:
+      213: -3836481004672801818
+    second: BloodDrip39
+  - first:
+      213: -5071293845005904796
+    second: BloodDrip40
+  - first:
+      213: -4483203923063986893
+    second: BloodDrip41
+  - first:
+      213: -8432326481369332652
+    second: BloodDrip42
+  - first:
+      213: -1637723714387332702
+    second: BloodDrip43
+  - first:
+      213: -1970279336608989770
+    second: BloodDrip44
+  - first:
+      213: -2161107593554984729
+    second: BloodDrip45
+  - first:
+      213: 8840612263449540998
+    second: BloodDrip46
+  - first:
+      213: -4543879011518449364
+    second: BloodDrip47
+  - first:
+      213: -6136871915200784510
+    second: BloodDrip48
+  - first:
+      213: 6287618796706015655
+    second: BloodDrip49
+  - first:
+      213: 8179140521572666783
+    second: BloodDrip50
+  - first:
+      213: -7950211906722874808
+    second: BloodDrip51
+  - first:
+      213: -3057887115351794260
+    second: BloodDrip52
+  - first:
+      213: 9219646502883908365
+    second: BloodDrip53
+  - first:
+      213: 7880896167527695774
+    second: BloodDrip54
+  - first:
+      213: -2395994791464312641
+    second: BloodDrip55
+  - first:
+      213: 2180990853281200400
+    second: BloodDrip56
+  - first:
+      213: 1330722699789749687
+    second: BloodDrip57
+  - first:
+      213: -3827795964681832201
+    second: BloodDrip58
+  - first:
+      213: -4033800291444935004
+    second: BloodDrip59
+  - first:
+      213: 1747095593340426234
+    second: BloodDrip60
+  - first:
+      213: -7639750891730600786
+    second: BloodDrip61
+  - first:
+      213: 5621197682193994607
+    second: BloodDrip62
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodDrip0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daeada760f0a84c44a50e165d2888cac
+      internalID: 3957748109617715038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8f4263ff84cff4d863bc04c9615f33
+      internalID: -3461695677184916421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635085b440481964e87e2398b44d2aa0
+      internalID: -5914476032551359130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d445795ccd5754d4896286f3229b6f87
+      internalID: 7932965543772349537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf3ecd171ead464ebcb631a03fcd4d9
+      internalID: 862938890601119190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184edb96207d89f48aeb956d635eefab
+      internalID: 4492101495959028028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7257d23cdb7852043bf29ed576b9d251
+      internalID: 4342355179316655720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6435c877758fd8b4384f5b337a0d0cc8
+      internalID: -2074340758454490657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263a3e1aa0461a140b532d8d56cd0f76
+      internalID: -7943632605588277376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd81fe4fbdb9345489ae80e2325cbdf6
+      internalID: 1624310093992398480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c4838bd252c284b99e3ef88c55a40a
+      internalID: -1218474494224348440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip11
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d99202a6c1a82429621e64d135d5ca
+      internalID: 4183165612302932778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip12
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60634cb267a0554fb5d4bbe3b9054dc
+      internalID: -8352024398513171213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip13
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3998b3c48fbf04299d00b8a3328ecc
+      internalID: 32049923276879887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5796bcfe0a83884481e04c5fa59dcb2
+      internalID: 7174320851121248939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bc1836ae54b364e975d2afb9d5dd29
+      internalID: -6166201522042780000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip16
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c368217c65c474abbaccb7348c8255
+      internalID: 1839806221206691197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip17
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592bc85181a1a5e4c9dec50f03ad0537
+      internalID: 9069033381629062517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip18
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8c9fbcab3bf524cba780a0081e4fd1
+      internalID: 3894253933526652921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip19
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9dea6ea5e953140b588c62e2ea59eb
+      internalID: -8067395030257485063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip20
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ee09dd5d5e9e04fb630061ffd9fab7
+      internalID: 2185202221499945520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip21
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed14d16d8582a743aa2a28fed609d50
+      internalID: 1258229093406138539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip22
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecf4cf8660e4fa43a3b34e4a1170cdc
+      internalID: 5751831458363590638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip23
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1419a2e784cce9438ab344a98d0ef7b
+      internalID: -3454590364115833767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip24
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b1f7861f06d334e836ed2c08276fe3
+      internalID: -5537406953475108544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip25
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 46
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f819727bd87da3949b0361a542c16dd8
+      internalID: -5150670794974144619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ed3d7c00208d8468524a313414d1cd
+      internalID: 140248084193821277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4f23dd1c020414fa943cdb95093e29
+      internalID: 5376246191213170478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip28
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e31ef86db9583b4fb95499b51e2ec08
+      internalID: 3421133638957967790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad64b061ff18213478bf0c4933e0ca3a
+      internalID: -5817861903683844533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip30
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec9fcbb91338e443bd8f5b8eb842569
+      internalID: 5987648391800686678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6098c09c40c07b74f990a6693d5ebaa9
+      internalID: 1546685550967737109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip32
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13d8e4eb9aa4af4d82c97e34673f538
+      internalID: -1130639376611491953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip33
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f17f67a721065847b82db90e66739ea
+      internalID: -4680448640814878923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip34
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab90675876e343940b8e88146e32cd41
+      internalID: 5101562603938052484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip35
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4ff0bd57993424fa5836e68f723c3d
+      internalID: 7134836837875615563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip36
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bf63bf62327aa4182a45e8bbd56315
+      internalID: 5308649282446219732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip37
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07981aabd00563444b7f3934342388d7
+      internalID: -3049876487860667624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip38
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c18eb7f5f6f9954cb2538435972cd67
+      internalID: 3528640108045004863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip39
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2a9ad388461ba469e824a1dba0c1f3
+      internalID: -3836481004672801818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip40
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094eefdd745736447aa5c79aa2cde6fd
+      internalID: -5071293845005904796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip41
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dabece79a3f47a489dac7695277e986
+      internalID: -4483203923063986893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip42
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f472394631874ea47b0864a6c9f85255
+      internalID: -8432326481369332652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip43
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d229d4488d52e74681a92146a539287
+      internalID: -1637723714387332702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip44
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e57ea985f43bd408a2c1bf3f68b0ea
+      internalID: -1970279336608989770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip45
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3925bad9ec684d945baaa23738391837
+      internalID: -2161107593554984729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip46
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a732ae814dd8541b29bc4cca427444
+      internalID: 8840612263449540998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip47
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4553bf4dcd59b094894e97f3332e583b
+      internalID: -4543879011518449364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip48
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864bd4f118a1e224881a47d2682343b2
+      internalID: -6136871915200784510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip49
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eaad9c20cc16e489da973c28441e14
+      internalID: 6287618796706015655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip50
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafcd4dd2e599f94eb2add1ad6be337b
+      internalID: 8179140521572666783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip51
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 28
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ceeece8cdc55640bc0e14f5d28ef9c
+      internalID: -7950211906722874808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee06a1fc9aca4544801af254dcfac3a
+      internalID: -3057887115351794260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip53
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f530e50a6b2d8464c8296c66d17658a3
+      internalID: 9219646502883908365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip54
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d148395f996df4295d2a2c15441fa3
+      internalID: 7880896167527695774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip55
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db59b5a6ec55c459c4fd76cf576c32
+      internalID: -2395994791464312641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip56
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2fc67adefe46541ba21f2b0782e052
+      internalID: 2180990853281200400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip57
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5769d1a1f6dab4b87ce8348a15ddce
+      internalID: 1330722699789749687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip58
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86ec5ad32ad7e74192e71e091a257b6
+      internalID: -3827795964681832201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip59
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f2520733f54ca48af1018d8dfd9a12
+      internalID: -4033800291444935004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip60
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bef3be7bb0758d4eb7a8792ebe89272
+      internalID: 1747095593340426234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip61
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15752fa21de9f044a964f4ea70a973b8
+      internalID: -7639750891730600786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodDrip62
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 10
+        width: 77
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96634f03446d5fb479fa5e9dc6625f0d
+      internalID: 5621197682193994607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8c33967e65485df49847b5d9ae3ec1e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
