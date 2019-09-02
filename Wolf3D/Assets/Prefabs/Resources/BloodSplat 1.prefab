@@ -44,7 +44,7 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
@@ -270,8 +270,8 @@ MonoBehaviour:
   bakeOnAwake: 0
   flipNormals: 0
   backfaceCulling: 1
-  distance: 0.01
-  angleConstraint: 0
+  distance: 0.00001
+  angleConstraint: 89
   technique: 4
   deferredFlags: 0
   inclusion: 0
@@ -280,13 +280,15 @@ MonoBehaviour:
     lastScale: {x: 1, y: 0.06, z: 1}
     lastRotation: {x: 0, y: 0, z: 0, w: 1}
     transform: {fileID: 3726284283145215431}
+  needsDynamicGeometry: 1
   Mask:
     serializedVersion: 2
     m_Bits: 1
+  projectionTarget: {fileID: 0}
   mode: 0
   source: 0
   aspectCorrectionMode: 0
-  recursiveMode: 0
+  recursiveMode: 1
   skinningQuality: 0
   material: {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
   atlas: {fileID: 0}
@@ -309,9 +311,9 @@ MonoBehaviour:
   calculateNormals: 0
   normalChannelMode: 0
   tangentChannelMode: 0
-  recursiceLookup: 0
+  recursiceLookup: 1
   randomIndexEnabled: 0
-  recursiceLookupSteps: 0
+  recursiceLookupSteps: 1
   autoDestroy: 0
   opacityMode: 0
   fadeOnly: 1
@@ -345,7 +347,7 @@ MonoBehaviour:
   surfaceRotation: 0
   quality: 2
   sharedMesh: {fileID: 0}
-  instanceID: 175116
+  instanceID: 75504
 --- !u!114 &4694220479308281032
 MonoBehaviour:
   m_ObjectHideFlags: 0

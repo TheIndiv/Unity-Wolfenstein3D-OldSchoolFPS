@@ -1,20 +1,25 @@
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 //-----------------------------------------------------
-// Deferred screen space decal includes. Version 0.9 [Beta]
-// Copyright (c) 2017 by Sycoforge
+// Deferred screen space decal includes. Version 0.9.1 [Beta]
+// Copyright (c) 2018 by Sycoforge
 //-----------------------------------------------------
 
 #ifndef DSSD_SYCO_CG_INCLUDED
 #define DSSD_SYCO_CG_INCLUDED
 
+
+
 #include "UnityCG.cginc"
 #include "UnityGlobalIllumination.cginc"
 
+#include "HLSLSupport.cginc"
 
 #include "Util.cginc"
 #include "SycoSSD.cginc"	
 #include "DSSDSignatures.cginc"	
+
+//#pragma multi_compile_instancing
 
 uniform sampler2D _DiffuseAOBuffer;		  // RT0
 uniform sampler2D _SpecSmoothBuffer;	  // RT1
@@ -205,6 +210,8 @@ inline half4 GetApproxAmbient(half4 color, half4 lightingBuffered, half3 normalW
 FragmentInputDSSD vert(VertexInputExt input)
 {
 	FragmentInputDSSD o = (FragmentInputDSSD)0;
+
+	UNITY_SETUP_INSTANCE_ID(input);
 
 	SETUP_DSSD_DIFF_NORM(input,o)
 

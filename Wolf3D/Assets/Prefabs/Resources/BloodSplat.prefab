@@ -280,9 +280,11 @@ MonoBehaviour:
     lastScale: {x: 1, y: 0.06, z: 1}
     lastRotation: {x: 0, y: 0, z: 0, w: 1}
     transform: {fileID: 3726284283145215431}
+  needsDynamicGeometry: 1
   Mask:
     serializedVersion: 2
     m_Bits: 1
+  projectionTarget: {fileID: 0}
   mode: 0
   source: 0
   aspectCorrectionMode: 0

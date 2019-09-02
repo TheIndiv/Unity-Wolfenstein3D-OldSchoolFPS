@@ -34,14 +34,16 @@ public class ParticleDecalPool : MonoBehaviour
     List<ParticleCollisionEvent> collisionEvents;
 
     private void Awake()
-    {
+	{
+		//Override EasyDecal's Instantiation delegation with our own one which uses the EZ_Pooling pool.
         EasyDecal.Instantiation = PoolInstantiation;
     }
-
+	
+	//Whenever a EasyDecal command instantiates a decal (either through Project, ProjectAt, Instantiate, etc...), this method will be used to spawn a decal from the EZ_Pooling pool rather than through EasyDecal's method.
     private static EasyDecal PoolInstantiation(GameObject decalPrefab, GameObject parent, Vector3 position, Quaternion rotation)
     {
 	    EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool("BloodSplat 1").Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
-        clone.Reset(true);
+	    clone.Reset(true);
 
         return clone;
     }
@@ -71,33 +73,33 @@ public class ParticleDecalPool : MonoBehaviour
 		}
 	}
 
-    private void InitializeDecals()
-    {
-        decalsInPool = new Queue<EasyDecal>();
-        decalsActiveInWorld = new Queue<GameObject>();
+    //private void InitializeDecals()
+    //{
+    //    decalsInPool = new Queue<EasyDecal>();
+    //    decalsActiveInWorld = new Queue<GameObject>();
 
-        for (int i = 0; i < maxDecals; i++)
-        {
-            InstantiateDecal();
-        }
-    }
+    //    for (int i = 0; i < maxDecals; i++)
+    //    {
+    //        InstantiateDecal();
+    //    }
+    //}
 
-    private void InstantiateDecal()
-    {
-        GameObject spawned = Instantiate(bloodSplatPrefab, decalManager.transform);
-        //spawned.transform.SetParent(decalManager.transform);
-        int rand = Random.Range(0, bloodSplatterTextures.Length);
-        spawned.GetComponent<Renderer>().material.SetTexture("_MainTex", bloodSplatterTextures[rand]);
+    //private void InstantiateDecal()
+    //{
+    //    GameObject spawned = Instantiate(bloodSplatPrefab, decalManager.transform);
+    //    //spawned.transform.SetParent(decalManager.transform);
+    //    int rand = Random.Range(0, bloodSplatterTextures.Length);
+    //    spawned.GetComponent<Renderer>().material.SetTexture("_MainTex", bloodSplatterTextures[rand]);
 
-        //decalsInPool.Enqueue(spawned);
-        spawned.SetActive(false);
-    }
+    //    //decalsInPool.Enqueue(spawned);
+    //    spawned.SetActive(false);
+    //}
 
     private void spawnDecal(ParticleCollisionEvent particleCollisionEvent, GameObject surface)
     {
         float randScale = Random.Range(decalSizeMin, decalSizeMax);
-        float randAngle = Random.Range(0, 180);
-
+	    float randAngle = Random.Range(0, 180);
+	    
         //decal.transform.parent = particleCollisionEvent.colliderComponent.gameObject.transform;
         //decal.transform.position = particleCollisionEvent.intersection;
         //decal.transform.rotation = Quaternion.FromToRotation(-Vector3.forward, particleCollisionEvent.normal);
@@ -112,16 +114,16 @@ public class ParticleDecalPool : MonoBehaviour
         //} else
         //{
         //    decal.transform.localEulerAngles += new Vector3(0, randAngle, 0);
-        //}
+	    //}
 
         //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
 	    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
 	    //decal.transform.position -= decal.transform.up * 0.01f;
-	    //EasyDecal decal = EasyDecal.Instantiate()
 	    //if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
 	    //{
 		//    //decalsOnWalls.Add(decal);
 	    //}
+	    
 	    float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
 	    
 	    if ((dotDown > 0.99f && dotDown <= 1.01f))

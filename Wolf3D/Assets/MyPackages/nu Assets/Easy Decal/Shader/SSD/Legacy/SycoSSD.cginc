@@ -32,6 +32,8 @@ struct VertexInputExt
 	fixed2 uv		: TEXCOORD0;
 	fixed2 uv2		: TEXCOORD1;
 	fixed4 color	: COLOR0;
+
+	UNITY_VERTEX_INPUT_INSTANCE_ID
 };
 
 struct FragmentInputDSSD

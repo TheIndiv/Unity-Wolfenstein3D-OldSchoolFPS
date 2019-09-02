@@ -7,7 +7,7 @@ using UnityEngine;
 public class DecalPooling : MonoBehaviour
 {
 	
-	public static string PoolName = "BloodSplat";
+	public static string PoolName = "BloodSplat 1";
 	
 	private Vector3 prefabScale;
 	private EasyDecal decal;
