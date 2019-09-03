@@ -20,7 +20,6 @@ public class AttackState : BaseState
 	{
 		if (enemy.isHit)
 		{
-			Debug.Log("Attack isHit!");
 			StaticCoroutine.StopCoroutine(currentCoroutine);
 			if (CR_Running)
 			{
@@ -31,7 +30,6 @@ public class AttackState : BaseState
 			enemy.isHit = false;
 			return State.Hit;
 		}
-		Debug.Log("Attack!");
 		//Vector3 pos = new Vector3(enemy.player.transform.position.x, enemy.transform.position.y, enemy.player.transform.position.z);
 		//enemy.transform.LookAt(pos);
 		

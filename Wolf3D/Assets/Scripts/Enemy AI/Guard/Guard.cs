@@ -40,7 +40,7 @@ public class Guard : Enemy
 	
 	public override void Damage(float damageTaken)
 	{
-		Debug.Log("Guard Hit! Damage Taken: " + damageTaken);
+		//Debug.Log("Guard Hit! Damage Taken: " + damageTaken);
 		_enemyHealth -= damageTaken;
 		alerted = true;
 		isHit = true;

@@ -10,7 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 225627996, guid: ffea41b2ef7376143bee608c897e587a, type: 3}
-  m_Name: Decal Atlas
+  m_Name: DecalBloodDripAtlas
   m_EditorClassIdentifier: 
-  material: {fileID: 0}
-  regions: []
+  material: {fileID: 2100000, guid: 61c201e093b44e940a7b473e8dc36652, type: 2}
+  regions:
+  - name: bigbloodpool
+    region:
+      serializedVersion: 2
+      x: 0.34570312
+      y: 0.18164062
+      width: 0.5625
+      height: 0.5605469
+  - name: bloodspothd
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0.7421875
+      width: 0.37109375
+      height: 0.2578125
+  - name: newBlood1
+    region:
+      serializedVersion: 2
+      x: 0.37109375
+      y: 0.7421875
+      width: 0.36914062
+      height: 0.2578125
+  - name: newBlood2
+    region:
+      serializedVersion: 2
+      x: 0
+      y: 0.484375
+      width: 0.34570312
+      height: 0.2578125

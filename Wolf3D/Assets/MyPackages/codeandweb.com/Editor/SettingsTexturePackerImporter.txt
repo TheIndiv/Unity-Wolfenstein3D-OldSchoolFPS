@@ -49,7 +49,7 @@ textureFileNames:
 - Assets/BloodAtlas.png
 - Assets/BloodSheet.png
 - Assets/bloodSplatterSheet.png
-- Assets/BloodWallDrip.png
+- Assets/BloodWallDrip2.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/SpriteSheetAll.png

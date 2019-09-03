@@ -49,7 +49,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
+  - {fileID: 2100000, guid: ba3ab7ea934fae74b857ebef9bfed1b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -171,7 +171,8 @@ GameObject:
   - component: {fileID: 8511771021415946820}
   - component: {fileID: 2249573896795481794}
   - component: {fileID: 5098662044500158274}
-  - component: {fileID: 4694220479308281032}
+  - component: {fileID: 6947138978039213268}
+  - component: {fileID: -2647937363572826851}
   m_Layer: 0
   m_Name: BloodSplat 2
   m_TagString: Untagged
@@ -270,7 +271,7 @@ MonoBehaviour:
   bakeOnAwake: 0
   flipNormals: 0
   backfaceCulling: 1
-  distance: 0.0001
+  distance: 0.00001
   angleConstraint: 0
   technique: 4
   deferredFlags: 0
@@ -286,11 +287,11 @@ MonoBehaviour:
     m_Bits: 1
   projectionTarget: {fileID: 0}
   mode: 0
-  source: 1
+  source: 0
   aspectCorrectionMode: 0
   recursiveMode: 1
   skinningQuality: 0
-  material: {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
+  material: {fileID: 2100000, guid: ba3ab7ea934fae74b857ebef9bfed1b2, type: 2}
   atlas: {fileID: 0}
   atlasRegionIndex: 0
   maxDistance: 0.1
@@ -347,8 +348,8 @@ MonoBehaviour:
   surfaceRotation: 0
   quality: 2
   sharedMesh: {fileID: 0}
-  instanceID: 99302
---- !u!114 &4694220479308281032
+  instanceID: 110628
+--- !u!114 &6947138978039213268
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -357,12 +358,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 7628121121416529119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbe3c39ab0a96b44c823726c29d8e2d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 768bf40341b8a24408617b193ced4222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   originalPosition: {x: 0, y: 0, z: 0}
-  materials:
-  - {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
-  - {fileID: 2100000, guid: 5e30355c1c127cf4892294bb340ec757, type: 2}
-  - {fileID: 2100000, guid: 299994bd9421994478aa9c7830bd9eff, type: 2}
-  - {fileID: 2100000, guid: 86a5ac20f4c215c49aeed7e38fe5c24e, type: 2}
+  materials: []
+--- !u!114 &-2647937363572826851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7628121121416529119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1867862244, guid: ffea41b2ef7376143bee608c897e587a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Columns: 21
+  Rows: 3
+  FPS: 10
+  CorrectTime: 1
+  Type: 0
+  InputTextureNames:
+  - _MainTex

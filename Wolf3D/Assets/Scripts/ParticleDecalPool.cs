@@ -10,7 +10,9 @@ public class ParticleDecalPool : MonoBehaviour
     public float decalSizeMax;
     public Texture[] bloodSplatterTextures;
     [SerializeField]
-    private GameObject bloodSplatPrefab;
+	private GameObject bloodSplatPrefab;
+	[SerializeField]
+	private GameObject bloodDripPrefab;
     [SerializeField]
     private GameObject decalManager;
 
@@ -40,9 +42,10 @@ public class ParticleDecalPool : MonoBehaviour
     }
 	
 	//Whenever a EasyDecal command instantiates a decal (either through Project, ProjectAt, Instantiate, etc...), this method will be used to spawn a decal from the EZ_Pooling pool rather than through EasyDecal's method.
-    private static EasyDecal PoolInstantiation(GameObject decalPrefab, GameObject parent, Vector3 position, Quaternion rotation)
-    {
-	    EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool("BloodSplat 1").Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
+	private static EasyDecal PoolInstantiation(GameObject decalPrefab, GameObject parent, Vector3 position, Quaternion rotation)
+	{
+		string PoolName = decalPrefab.name;
+	    EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool(PoolName).Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
 	    clone.Reset(true);
 
         return clone;
@@ -134,26 +137,40 @@ public class ParticleDecalPool : MonoBehaviour
                  
 	    //// Normalize normal
 	    //averageNormal /= hits.Length + 1;
-
-        //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
-	    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
-	    //decal.transform.position -= decal.transform.up * 0.01f;
-	    //if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
-	    //{
-		//    //decalsOnWalls.Add(decal);
-	    //}
 	    
-	    float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
+	    float dotUpDown = Vector3.Dot(particleCollisionEvent.normal, Vector3.down);
 	    
-	    if ((dotDown > 0.99f && dotDown <= 1.01f))
+	    if ((dotUpDown >= -1.01f && dotUpDown <= -0.99f) || (dotUpDown > 0.99f && dotUpDown <= 1.01f))
+		{
+	        //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
+		    //EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
+		    ////decal.transform.position -= decal.transform.up * 0.01f;
+		    ////if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
+		    ////{
+			////    //decalsOnWalls.Add(decal);
+		    ////}
+		    
+		    //float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
+		    
+		    //if ((dotDown > 0.99f && dotDown <= 1.01f))
+		    //{
+			//    decalsOnCeiling.Add(decal);
+		    //} else
+		    //{
+		    //	if (decalsOnCeiling.Contains(decal))
+		    //	{
+		    //		decalsOnCeiling.Remove(decal);
+		    //	}
+		    //}
+		}
+	    else
 	    {
-		    decalsOnCeiling.Add(decal);
-	    } else
-	    {
-	    	if (decalsOnCeiling.Contains(decal))
-	    	{
-	    		decalsOnCeiling.Remove(decal);
-	    	}
+	    	Debug.Log(particleCollisionEvent.normal);
+	    	EasyDecal decal = EasyDecal.ProjectAt(bloodDripPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, 0, new Vector3(randScale, 0.06f, randScale));
+		    //decal.transform.localRotation = Quaternion.Euler(particleCollisionEvent.normal * 90f);
+		    //decal.transform.Rotate(particleCollisionEvent.normal * 90f);
+		    //decal.transform.rotation = Quaternion.LookRotation(particleCollisionEvent.normal);
+		    //Debug.Log("Euler: " + Quaternion.Euler(particleCollisionEvent.normal));
 	    }
         
 	    //if (decalsOnWalls.Count > 0 && !CR_Running)
