@@ -3,6 +3,7 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/BloodAtlas.tpsheet
 - Assets/BloodSheet.tpsheet
+- Assets/bloodSplatterSheet.tpsheet
 - Assets/BloodWallDrip.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
@@ -47,6 +48,7 @@ tpsheetFileNames:
 textureFileNames:
 - Assets/BloodAtlas.png
 - Assets/BloodSheet.png
+- Assets/bloodSplatterSheet.png
 - Assets/BloodWallDrip.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/MyPackages/codeandweb.com/Example/SpriteSheet/sprites.png
@@ -89,6 +91,7 @@ textureFileNames:
 - Assets/Wolf3D Assets/Sprites/Spear Of Destiny Maybe/Weapon Animations/WeaponAnimationSpriteSheet.png
 - Assets/Wolf3D Assets/Sprites/SS/SSSpriteSheet.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

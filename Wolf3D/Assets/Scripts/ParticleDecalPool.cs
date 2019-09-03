@@ -115,6 +115,25 @@ public class ParticleDecalPool : MonoBehaviour
         //{
         //    decal.transform.localEulerAngles += new Vector3(0, randAngle, 0);
 	    //}
+	    
+	    //float castRadius = 1f;
+	    
+	    //RaycastHit[] hits = Physics.SphereCastAll(particleCollisionEvent.intersection, castRadius, Vector3.zero, Vector3.Distance(Camera.main.transform.position, particleCollisionEvent.intersection) + 2);
+	    //Vector3 averageNormal = particleCollisionEvent.normal;
+ 
+	    //// Check if sphere cast hit something
+	    //if (hits.Length > 0)
+	    //{
+		//    Debug.Log(hits.Length);
+		//    foreach (RaycastHit hit in hits)
+		//    {
+		//	    // Sum all collison point normals
+		//	    averageNormal += hit.normal;
+		//    }
+	    //}
+                 
+	    //// Normalize normal
+	    //averageNormal /= hits.Length + 1;
 
         //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
 	    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));

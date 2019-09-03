@@ -19,15 +19,15 @@ public class DecalPooling : MonoBehaviour
 	private void Awake()
 	{
 		decal = GetComponent<EasyDecal>();
-		float rand = Random.Range(0.0f, 1.0f);
-		if (rand < 0.98f)
-		{
-			int newRand = Random.Range(0, materials.Length-1);
-			decal.DecalMaterial = materials[newRand];
-		} else
-		{
-			decal.DecalMaterial = materials[1];
-		}
+		//float rand = Random.Range(0.0f, 1.0f);
+		//if (rand < 0.98f)
+		//{
+		//	int newRand = Random.Range(0, materials.Length-1);
+		//	decal.DecalMaterial = materials[newRand];
+		//} else
+		//{
+		//	decal.DecalMaterial = materials[1];
+		//}
 		
 		prefabScale = gameObject.transform.localScale;
 		originalParent = transform.parent;

@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5098662044500158274}
   - component: {fileID: 4694220479308281032}
   m_Layer: 0
-  m_Name: BloodSplat 1
+  m_Name: BloodSplat 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +270,7 @@ MonoBehaviour:
   bakeOnAwake: 0
   flipNormals: 0
   backfaceCulling: 1
-  distance: 0.00001
+  distance: 0.0001
   angleConstraint: 0
   technique: 4
   deferredFlags: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
   recursiveMode: 1
   skinningQuality: 0
   material: {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
-  atlas: {fileID: 11400000, guid: da2f327340c7ff74b8ac2d4db2a48a35, type: 2}
+  atlas: {fileID: 0}
   atlasRegionIndex: 0
   maxDistance: 0.1
   projectionDistance: 1
@@ -312,7 +312,7 @@ MonoBehaviour:
   normalChannelMode: 0
   tangentChannelMode: 0
   recursiceLookup: 0
-  randomIndexEnabled: 1
+  randomIndexEnabled: 0
   recursiceLookupSteps: 1
   autoDestroy: 0
   opacityMode: 0
