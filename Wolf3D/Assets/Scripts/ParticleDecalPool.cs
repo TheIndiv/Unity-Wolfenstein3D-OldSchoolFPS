@@ -143,32 +143,41 @@ public class ParticleDecalPool : MonoBehaviour
 	    if ((dotUpDown >= -1.01f && dotUpDown <= -0.99f) || (dotUpDown > 0.99f && dotUpDown <= 1.01f))
 		{
 	        //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
-		    //EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
-		    ////decal.transform.position -= decal.transform.up * 0.01f;
-		    ////if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
-		    ////{
-			////    //decalsOnWalls.Add(decal);
-		    ////}
-		    
-		    //float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
-		    
-		    //if ((dotDown > 0.99f && dotDown <= 1.01f))
+		    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
+		    //decal.transform.position -= decal.transform.up * 0.01f;
+		    //if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
 		    //{
-			//    decalsOnCeiling.Add(decal);
-		    //} else
-		    //{
-		    //	if (decalsOnCeiling.Contains(decal))
-		    //	{
-		    //		decalsOnCeiling.Remove(decal);
-		    //	}
+			//    //decalsOnWalls.Add(decal);
 		    //}
+		    
+		    float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
+		    
+		    if ((dotDown > 0.99f && dotDown <= 1.01f))
+		    {
+			    decalsOnCeiling.Add(decal);
+		    } else
+		    {
+		    	if (decalsOnCeiling.Contains(decal))
+		    	{
+		    		decalsOnCeiling.Remove(decal);
+		    	}
+		    }
 		}
 	    else
 	    {
-	    	EasyDecal decal = EasyDecal.ProjectAt(bloodDripPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, 0, new Vector3(randScale, 0.06f, randScale));
-
-		    decal.transform.rotation = Quaternion.LookRotation(Vector3.up, particleCollisionEvent.normal);
-		    decal.transform.RotateAround(decal.transform.position, particleCollisionEvent.normal, 90);
+	    	float rand = Random.Range(0f, 1f);
+	    	if (rand <= 0.13f)
+	    	{
+	    		float randScaleDripX = Random.Range(0.8f, 0.95f);
+	    		float randScaleDripZ = Random.Range(0.2f, 0.35f);
+		    	EasyDecal decal = EasyDecal.ProjectAt(bloodDripPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, 0, new Vector3(randScaleDripX, 0.06f, randScaleDripZ));
+			    decal.transform.rotation = Quaternion.LookRotation(Vector3.up, particleCollisionEvent.normal);
+			    decal.transform.RotateAround(decal.transform.position, particleCollisionEvent.normal, 90);
+		    }
+		    else
+		    {
+		    	EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
+		    }
 	    }
         
 	    //if (decalsOnWalls.Count > 0 && !CR_Running)

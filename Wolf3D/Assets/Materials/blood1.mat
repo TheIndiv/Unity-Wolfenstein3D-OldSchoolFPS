@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: blood1
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 79d272df84804e74ca90111523015bd2, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -68,6 +67,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainDriverTexture:
+        m_Texture: {fileID: 2800000, guid: af5d2739aed3c6a4e80f71690e848c42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: b202d82f357a34244a4657785db461e7, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +81,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
         m_Texture: {fileID: 2800000, guid: 454558f800eb60e40bb0300d833e6de7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 7962e27806f58f442bce0b4342e1d7e8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Occlusion:
@@ -94,6 +101,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _RoundNormal:
         m_Texture: {fileID: 2800000, guid: 3c7d36b08e44f6044b809236eadfd0b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
@@ -114,18 +125,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
+    - _Adjust: 0
     - _AlphaClip: 1
     - _Amount: 1
     - _Amplitude: 1
     - _Blend: 0
     - _BlendOp: 0
     - _Blending: 0.5393515
+    - _BloodDrying: 0
     - _BumpScale: 1
     - _CameraFadingEnabled: 0
     - _CameraFarFadeDistance: 2
     - _CameraNearFadeDistance: 1
+    - _Contrast: 6
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Cutoof: 0.5
     - _CutoutThresh: 0.2
     - _Depth1: 1
     - _Depth2: 1
@@ -159,6 +174,7 @@ Material:
     - _Mode: 1
     - _MotionSpeed1: 2
     - _MotionSpeed2: 2
+    - _Noise: 20
     - _NormalMultiplier: 1
     - _NormalStrength: 1
     - _OcclusionStrength: 1
@@ -187,14 +203,18 @@ Material:
     - _ToneBias: 0
     - _ToneScale: 0
     - _Transparency: 0.5
+    - _Tween: 1
     - _UVSec: 0
     - _WorkflowMode: 1
+    - _YOffset: -0.1
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
     - _BaseColor: {r: 0.9254902, g: 0.9254902, b: 0.9254902, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.9137255, g: 0.9137255, b: 0.9137255, a: 1}
+    - _Color_Gloss: {r: 0.5882353, g: 0, b: 0, a: 0.872}
+    - _DryColor_Gloss: {r: 0.5882353, g: 0, b: 0, a: 0.872}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}

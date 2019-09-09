@@ -21,14 +21,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: bloodWallDrip
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 79d272df84804e74ca90111523015bd2, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
   m_SavedProperties:
@@ -140,6 +139,7 @@ Material:
     - _CameraNearFadeDistance: 1
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Cutoof: 0.5
     - _CutoutThresh: 0.2
     - _Depth1: 1
     - _Depth2: 1
