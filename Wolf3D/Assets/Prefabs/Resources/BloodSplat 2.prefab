@@ -188,7 +188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7628121121416529119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.06, z: 1}
   m_Children:
   - {fileID: 9170094401803081752}
@@ -277,7 +277,7 @@ MonoBehaviour:
   deferredFlags: 0
   inclusion: 0
   transformObserver:
-    lastPosition: {x: -0, y: 0, z: 0}
+    lastPosition: {x: 0, y: 0, z: 0}
     lastScale: {x: 1, y: 0.06, z: 1}
     lastRotation: {x: 0, y: 0, z: 0, w: 1}
     transform: {fileID: 3726284283145215431}
@@ -348,7 +348,7 @@ MonoBehaviour:
   surfaceRotation: 0
   quality: 2
   sharedMesh: {fileID: 0}
-  instanceID: 110628
+  instanceID: 51148
 --- !u!114 &6947138978039213268
 MonoBehaviour:
   m_ObjectHideFlags: 0

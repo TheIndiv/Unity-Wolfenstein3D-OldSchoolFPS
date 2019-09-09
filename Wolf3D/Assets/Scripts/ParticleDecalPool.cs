@@ -45,7 +45,7 @@ public class ParticleDecalPool : MonoBehaviour
 	private static EasyDecal PoolInstantiation(GameObject decalPrefab, GameObject parent, Vector3 position, Quaternion rotation)
 	{
 		string PoolName = decalPrefab.name;
-	    EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool(PoolName).Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
+		EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool(PoolName).Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
 	    clone.Reset(true);
 
         return clone;
@@ -165,12 +165,10 @@ public class ParticleDecalPool : MonoBehaviour
 		}
 	    else
 	    {
-	    	Debug.Log(particleCollisionEvent.normal);
 	    	EasyDecal decal = EasyDecal.ProjectAt(bloodDripPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, 0, new Vector3(randScale, 0.06f, randScale));
-		    //decal.transform.localRotation = Quaternion.Euler(particleCollisionEvent.normal * 90f);
-		    //decal.transform.Rotate(particleCollisionEvent.normal * 90f);
-		    //decal.transform.rotation = Quaternion.LookRotation(particleCollisionEvent.normal);
-		    //Debug.Log("Euler: " + Quaternion.Euler(particleCollisionEvent.normal));
+
+		    decal.transform.rotation = Quaternion.LookRotation(Vector3.up, particleCollisionEvent.normal);
+		    decal.transform.RotateAround(decal.transform.position, particleCollisionEvent.normal, 90);
 	    }
         
 	    //if (decalsOnWalls.Count > 0 && !CR_Running)
