@@ -270,8 +270,8 @@ MonoBehaviour:
   baked: 0
   bakeOnAwake: 0
   flipNormals: 0
-  backfaceCulling: 1
-  distance: 0.00001
+  backfaceCulling: 0
+  distance: 0.0001
   angleConstraint: 0
   technique: 4
   deferredFlags: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   normalSmoothThreshold: 0
   resolution: 4
   multiMeshEnabled: 1
-  cullInvisible: 1
+  cullInvisible: 0
   cullUnreachable: 0
   showVertices: 0
   showDir: 1
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   originalPosition: {x: 0, y: 0, z: 0}
-  materials: []
+  decalAnim: {fileID: -2647937363572826851}
 --- !u!114 &-2647937363572826851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,8 +377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Columns: 21
   Rows: 3
-  FPS: 10
-  CorrectTime: 1
+  FPS: 6
+  CorrectTime: 0
   Type: 0
   InputTextureNames:
   - _MainTex

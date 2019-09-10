@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 61c201e093b44e940a7b473e8dc36652, type: 2}
   regions:
-  - name: bigbloodpool
-    region:
-      serializedVersion: 2
-      x: 0.34570312
-      y: 0.18164062
-      width: 0.5625
-      height: 0.5605469
   - name: bloodspothd
     region:
       serializedVersion: 2

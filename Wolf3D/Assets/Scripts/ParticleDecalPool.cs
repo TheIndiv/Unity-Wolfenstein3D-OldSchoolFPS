@@ -46,7 +46,7 @@ public class ParticleDecalPool : MonoBehaviour
 	{
 		string PoolName = decalPrefab.name;
 		EasyDecal clone = EZ_Pooling.EZ_PoolManager.GetPool(PoolName).Spawn(decalPrefab.transform, position, rotation).GetComponent<EasyDecal>();
-	    clone.Reset(true);
+		clone.Reset(true);
 
         return clone;
     }
@@ -142,35 +142,37 @@ public class ParticleDecalPool : MonoBehaviour
 	    
 	    if ((dotUpDown >= -1.01f && dotUpDown <= -0.99f) || (dotUpDown > 0.99f && dotUpDown <= 1.01f))
 		{
-	        //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
-		    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
-		    //decal.transform.position -= decal.transform.up * 0.01f;
-		    //if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
+	        ////decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
+		    //EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
+		    ////decal.transform.position -= decal.transform.up * 0.01f;
+		    ////if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
+		    ////{
+			////    //decalsOnWalls.Add(decal);
+		    ////}
+		    
+		    //float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
+		    
+		    //if ((dotDown > 0.99f && dotDown <= 1.01f))
 		    //{
-			//    //decalsOnWalls.Add(decal);
+			//    decalsOnCeiling.Add(decal);
+		    //} else
+		    //{
+		    //	if (decalsOnCeiling.Contains(decal))
+		    //	{
+		    //		decalsOnCeiling.Remove(decal);
+		    //	}
 		    //}
-		    
-		    float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
-		    
-		    if ((dotDown > 0.99f && dotDown <= 1.01f))
-		    {
-			    decalsOnCeiling.Add(decal);
-		    } else
-		    {
-		    	if (decalsOnCeiling.Contains(decal))
-		    	{
-		    		decalsOnCeiling.Remove(decal);
-		    	}
-		    }
 		}
 	    else
 	    {
-	    	float rand = Random.Range(0f, 1f);
-	    	if (rand <= 0.13f)
+	    	//float rand = Random.Range(0f, 1f);
+	    	float rand = 0.01f;
+	    	if (rand <= 0.11f)
 	    	{
-	    		float randScaleDripX = Random.Range(0.8f, 0.95f);
-	    		float randScaleDripZ = Random.Range(0.2f, 0.35f);
+	    		float randScaleDripX = Random.Range(0.35f, 0.6f);
+	    		float randScaleDripZ = Random.Range(0.15f, 0.24f);
 		    	EasyDecal decal = EasyDecal.ProjectAt(bloodDripPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, 0, new Vector3(randScaleDripX, 0.06f, randScaleDripZ));
+			    decal.Baked = false;
 			    decal.transform.rotation = Quaternion.LookRotation(Vector3.up, particleCollisionEvent.normal);
 			    decal.transform.RotateAround(decal.transform.position, particleCollisionEvent.normal, 90);
 		    }

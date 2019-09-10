@@ -49,7 +49,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
+  - {fileID: 2100000, guid: 61c201e093b44e940a7b473e8dc36652, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -290,9 +290,9 @@ MonoBehaviour:
   aspectCorrectionMode: 0
   recursiveMode: 1
   skinningQuality: 0
-  material: {fileID: 2100000, guid: 3924c2d51bf603142827ff09298b53a7, type: 2}
+  material: {fileID: 2100000, guid: 61c201e093b44e940a7b473e8dc36652, type: 2}
   atlas: {fileID: 11400000, guid: da2f327340c7ff74b8ac2d4db2a48a35, type: 2}
-  atlasRegionIndex: 0
+  atlasRegionIndex: 1
   maxDistance: 0.1
   projectionDistance: 1
   smoothNormals: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   surfaceRotation: 0
   quality: 2
   sharedMesh: {fileID: 0}
-  instanceID: 99302
+  instanceID: 38764
 --- !u!114 &4694220479308281032
 MonoBehaviour:
   m_ObjectHideFlags: 0
