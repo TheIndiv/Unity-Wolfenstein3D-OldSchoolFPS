@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: bloodSplatter
-  m_Shader: {fileID: 4800000, guid: 6ebf4f96a4dec7747a66a6640b20ac74, type: 3}
+  m_Shader: {fileID: 4800000, guid: a805a2c6f58e312419dc8d9cca845fed, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -73,16 +73,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
+    - _CutOff: 0.5
     - _Cutoff: 0.5
     - _Cutoof: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Factor: 1
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 1
     - _NormalMultiplier: 1
+    - _NormalStrength: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SSDMasking: 1
@@ -91,7 +94,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularMultiplier: 0
-    - _Specularity: 1
+    - _Specularity: 0
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
