@@ -13,6 +13,7 @@ public class DecalPoolingBloodDrip : MonoBehaviour
 	private EasyDecal decal;
 	private Transform originalParent;
 	public Vector3 originalPosition;
+	private bool firstTime = true;
 	
 	public DecalAnimation decalAnim;
 	
@@ -29,7 +30,12 @@ public class DecalPoolingBloodDrip : MonoBehaviour
 	void OnSpawned()
 	{
 		originalPosition = transform.position;
-		decalAnim.Reset();
+		if (!firstTime)
+		{
+			decalAnim.Reset();
+			decalAnim.Start();
+		}
+		firstTime = false;
 	}
 
 	void OnDespawned()

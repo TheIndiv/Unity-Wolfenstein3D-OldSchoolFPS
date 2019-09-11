@@ -142,31 +142,31 @@ public class ParticleDecalPool : MonoBehaviour
 	    
 	    if ((dotUpDown >= -1.01f && dotUpDown <= -0.99f) || (dotUpDown > 0.99f && dotUpDown <= 1.01f))
 		{
-	        ////decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
-		    //EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
-		    ////decal.transform.position -= decal.transform.up * 0.01f;
-		    ////if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
-		    ////{
-			////    //decalsOnWalls.Add(decal);
-		    ////}
-		    
-		    //float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
-		    
-		    //if ((dotDown > 0.99f && dotDown <= 1.01f))
+	        //decal.GetComponent<Renderer>().material.color = particleColorGradient.Evaluate(Random.Range(0f, 1f));
+		    EasyDecal decal = EasyDecal.ProjectAt(bloodSplatPrefab.gameObject, particleCollisionEvent.colliderComponent.gameObject, particleCollisionEvent.intersection, particleCollisionEvent.normal, randAngle, new Vector3(randScale, 0.06f, randScale));
+		    //decal.transform.position -= decal.transform.up * 0.01f;
+		    //if (Mathf.Abs(Vector3.Dot(decal.transform.up, Vector3.down)) < 0.125f)
 		    //{
-			//    decalsOnCeiling.Add(decal);
-		    //} else
-		    //{
-		    //	if (decalsOnCeiling.Contains(decal))
-		    //	{
-		    //		decalsOnCeiling.Remove(decal);
-		    //	}
+			//    //decalsOnWalls.Add(decal);
 		    //}
+		    
+		    float dotDown = Vector3.Dot(decal.transform.up, Vector3.down);
+		    
+		    if ((dotDown > 0.99f && dotDown <= 1.01f))
+		    {
+			    decalsOnCeiling.Add(decal);
+		    } else
+		    {
+		    	if (decalsOnCeiling.Contains(decal))
+		    	{
+		    		decalsOnCeiling.Remove(decal);
+		    	}
+		    }
 		}
 	    else
 	    {
-	    	//float rand = Random.Range(0f, 1f);
-	    	float rand = 0.01f;
+	    	float rand = Random.Range(0f, 1f);
+	    	//float rand = 0.01f;
 	    	if (rand <= 0.11f)
 	    	{
 	    		float randScaleDripX = Random.Range(0.35f, 0.6f);

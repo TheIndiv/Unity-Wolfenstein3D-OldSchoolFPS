@@ -377,8 +377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Columns: 21
   Rows: 3
-  FPS: 6
-  CorrectTime: 0
+  FPS: 8
+  CorrectTime: 1
   Type: 0
   InputTextureNames:
   - _MainTex

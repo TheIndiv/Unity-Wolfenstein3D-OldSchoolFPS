@@ -6585,6 +6585,7 @@ GameObject:
   - component: {fileID: 256504289}
   - component: {fileID: 256504290}
   - component: {fileID: 256504293}
+  - component: {fileID: 256504291}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -6637,6 +6638,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &256504291
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256504288}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 30fd37b7cf317ed4b8ce4487d0874b6d, type: 2}
 --- !u!4 &256504292
 Transform:
   m_ObjectHideFlags: 0
@@ -11225,7 +11239,7 @@ MonoBehaviour:
     recycle: 1
   - prefabTransform: {fileID: 3726284283145215431, guid: cc007ac53e6be8649971b78eb9f5b700,
       type: 3}
-    instancesToPreload: 10
+    instancesToPreload: 100
     isPoolExpanded: 1
     showDebugLog: 0
     poolCanGrow: 0
@@ -19527,6 +19541,7 @@ GameObject:
   - component: {fileID: 1471315107}
   - component: {fileID: 1471315106}
   - component: {fileID: 1471315104}
+  - component: {fileID: 1471315105}
   m_Layer: 0
   m_Name: Ceiling
   m_TagString: Untagged
@@ -19547,6 +19562,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16, y: 1, z: 24}
   m_Center: {x: 0, y: 0, z: -5}
+--- !u!64 &1471315105
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471315103}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 30fd37b7cf317ed4b8ce4487d0874b6d, type: 2}
 --- !u!23 &1471315106
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27930,16 +27959,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.86
-      objectReference: {fileID: 0}
-    - target: {fileID: -2647937363572826851, guid: cc007ac53e6be8649971b78eb9f5b700,
-        type: 3}
-      propertyPath: Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -2647937363572826851, guid: cc007ac53e6be8649971b78eb9f5b700,
-        type: 3}
-      propertyPath: FPS
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5098662044500158274, guid: cc007ac53e6be8649971b78eb9f5b700,
         type: 3}
