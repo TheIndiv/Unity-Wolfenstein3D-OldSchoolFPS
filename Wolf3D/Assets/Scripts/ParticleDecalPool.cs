@@ -286,9 +286,10 @@ public class ParticleDecalPool : MonoBehaviour
         splatterParticles.Emit(2);
     }
 
-	public void spawnBloodParticles(int damage, Transform enemy)
+	public void spawnBloodParticles(int damage, Vector3 enemyPos)
 	{
-		particleLauncher.transform.position = enemy.position;
+		particleLauncher.transform.position = enemyPos;
+		
 		particleLauncher.Emit((int)damage/3);
 		bloodSprayLauncher.Emit((int)damage/4);
     }

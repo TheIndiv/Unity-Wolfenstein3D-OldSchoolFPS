@@ -27,6 +27,8 @@ public class PistolFire : MonoBehaviour
 	//public CameraShake cameraShake;
 	public float rateOfFire;
 	private float timer = 0;
+	
+	public float pitchMin, pitchMax, volumeMin, volumeMax;
 
     private void Start()
     {
@@ -90,6 +92,9 @@ public class PistolFire : MonoBehaviour
 		//StartCoroutine(cameraShake.Shake(shakeDuration, shakeAmount, shakeDecreaseAmount));
 		CameraShaker.Instance.ShakeOnce(shakeAmount, shakeRoughness, shakeFadeInTime, shakeFadeOutTime);
 		fireSound.Play();
+		//fireSound.pitch = Random.Range(pitchMin, pitchMax);
+		//fireSound.volume = Random.Range(volumeMin, volumeMax);
+		//fireSound.PlayOneShot(fireClip);
 		
 		//PlayerStats.stats[4] -= 1;
 
@@ -100,10 +105,12 @@ public class PistolFire : MonoBehaviour
 		{
 			if (raycastHit.transform.gameObject.layer == 10)
 			{
-				raycastHit.transform.parent.GetComponent<Enemy>().Damage(newDamage);
+				Enemy enemy = raycastHit.transform.parent.GetComponent<Enemy>();
+				enemy.Damage(newDamage);
 				//Debug.Log(enemy);
 				//if (enemy != null) enemy.Damage(newDamage);
-				particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform);
+				if (enemy.enemyHealth <= 0) particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position - new Vector3(0, 0.4f, 0));
+				else particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position);
 			}
 		}
 	}

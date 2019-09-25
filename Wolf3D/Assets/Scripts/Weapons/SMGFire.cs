@@ -105,11 +105,13 @@ public class SMGFire : MonoBehaviour
 		{
 			if (raycastHit.transform.gameObject.layer == 10)
 			{
-				raycastHit.transform.parent.GetComponent<Enemy>().Damage(newDamage);
+				Enemy enemy = raycastHit.transform.parent.GetComponent<Enemy>();
+				enemy.Damage(newDamage);
 				//IDamageable<float> enemy = raycastHit.transform.gameObject.GetComponent<IDamageable<float>>();
 				//if (enemy != null) enemy.Damage(newDamage);
 				//particleDecalPool.spawnBloodParticles(newDamage);
-				particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform);
+				if (enemy.enemyHealth <= 0) particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position - new Vector3(0, 0.4f, 0));
+				else particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position);
 			}
 		}
 	}

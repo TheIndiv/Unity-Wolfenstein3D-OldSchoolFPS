@@ -22,7 +22,8 @@ public class DeadState : BaseState
 			enemy.gameObject.GetComponent<Enemy>().enabled = false;
 			enemy.gameObject.GetComponent<RichAI>().enabled = false;
 			enemy.gameObject.GetComponent<AIDestinationSetter>().enabled = false;
-			enemy.enemyCollider.enabled = false;
+			enemy.enemyCollider.isTrigger = true;
+			enemy.enemyCollider.center = new Vector3 (enemy.enemyCollider.center.x, enemy.enemyCollider.center.y - 0.4f, enemy.enemyCollider.center.z);
 		}
 		return State.Dead;
 	}

@@ -43,8 +43,11 @@ public class KnifeStab : MonoBehaviour
         {
 	        if (raycastHit.transform.gameObject.layer == 10)
 	        {
-		        raycastHit.transform.parent.GetComponent<Enemy>().Damage(newDamage);
-		        particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform);
+	        	Enemy enemy = raycastHit.transform.parent.GetComponent<Enemy>();
+		        enemy.Damage(newDamage);
+		        
+		        if (enemy.enemyHealth <= 0) particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position - new Vector3(0, 0.4f, 0));
+		        else particleDecalPool.spawnBloodParticles(newDamage, raycastHit.transform.position);
             }
         }
     }

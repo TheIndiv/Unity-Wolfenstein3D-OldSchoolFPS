@@ -13,6 +13,7 @@ public class DecalPooling : MonoBehaviour
 	private EasyDecal decal;
 	private Transform originalParent;
 	public Vector3 originalPosition;
+	private bool firstTime = true;
 	
 	public Material[] materials;
 	
@@ -38,6 +39,11 @@ public class DecalPooling : MonoBehaviour
 	void OnSpawned()
 	{
 		originalPosition = transform.position;
+		if (!firstTime)
+		{
+			decal.Reset();
+		}
+		firstTime = false;
 	}
 
 	void OnDespawned()
