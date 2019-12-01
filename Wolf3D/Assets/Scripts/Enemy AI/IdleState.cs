@@ -18,6 +18,12 @@ public class IdleState : BaseState
 		if (enemy.isHit)
 		{
 			enemy.isHit = false;
+			
+			int index = Random.Range(0, enemy.guardHit.Length);
+			enemy.clip = enemy.guardHit[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Hit;
 		}
 		
@@ -25,6 +31,12 @@ public class IdleState : BaseState
 		if (enemy.alerted) 
 		{
 			destinationSetter.enabled = true;
+			
+			int index = Random.Range(0, enemy.guardAlert.Length);
+			enemy.clip = enemy.guardAlert[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Chase;
 		}
 		else {

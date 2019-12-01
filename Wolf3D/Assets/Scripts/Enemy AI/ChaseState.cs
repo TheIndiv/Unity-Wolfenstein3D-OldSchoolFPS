@@ -21,6 +21,12 @@ public class ChaseState : BaseState
 		if (enemy.isHit)
 		{
 			enemy.isHit = false;
+			
+			int index = Random.Range(0, enemy.guardHit.Length);
+			enemy.clip = enemy.guardHit[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Hit;
 		}
 		else

@@ -17,6 +17,11 @@ public class DeadState : BaseState
 	{
 		if (!deadAnimPlayed)
 		{
+			int index = Random.Range(0, enemy.guardDeath.Length);
+			enemy.clip = enemy.guardDeath[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			deadAnimPlayed = true;
 			enemy.anim.SetTrigger(enemy.deathHash);
 			enemy.gameObject.GetComponent<Enemy>().enabled = false;

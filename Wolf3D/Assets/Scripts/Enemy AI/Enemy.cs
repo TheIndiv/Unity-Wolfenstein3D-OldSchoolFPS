@@ -10,6 +10,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable<float>
 	public abstract float baseDamage { get; set; }
 	public abstract float maxMoveSpeed { get; set; }
 	public abstract int ammo { get; set; }
+	public AudioClip[] guardAlert;
+	public AudioClip[] guardHit;
+	public AudioClip[] guardDeath;
+	public AudioClip clip;
+	public AudioSource guardNoises;
 	
 	[HideInInspector]
 	public GameObject player;
