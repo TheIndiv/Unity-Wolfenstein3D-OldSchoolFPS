@@ -4112,11 +4112,11 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967293
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -5410,8 +5410,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7691758168374951930}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: -4.425}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4.441, y: 0.5, z: 1.029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 854876686221256521}
@@ -5451,7 +5451,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 0.7
+  m_Height: 0.8
   m_Radius: 0.2222222
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -5467,7 +5467,7 @@ PositionConstraint:
   m_GameObject: {fileID: 7691758168374951930}
   m_Enabled: 1
   m_Weight: 0
-  m_TranslationAtRest: {x: 0, y: 0.5, z: -4.409}
+  m_TranslationAtRest: {x: 0, y: 0.5, z: 0}
   m_TranslationOffset: {x: 0, y: 0, z: 0}
   m_AffectTranslationX: 0
   m_AffectTranslationY: 1

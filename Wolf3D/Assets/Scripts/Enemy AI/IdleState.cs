@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class IdleState : BaseState
 {
@@ -9,6 +10,7 @@ public class IdleState : BaseState
 	public IdleState(Enemy enemy) : base(enemy.gameObject)
     {
 	    this.enemy = enemy;
+	    destinationSetter = enemy.GetComponent<AIDestinationSetter>();
     }
 
 	public override State Tick()
@@ -19,7 +21,17 @@ public class IdleState : BaseState
 			return State.Hit;
 		}
 		
-		enemy.anim.SetTrigger(enemy.idleHash);
-	    return State.Wander;
+		Debug.Log(enemy.alerted);
+		if (enemy.alerted) 
+		{
+			destinationSetter.enabled = true;
+			return State.Chase;
+		}
+		else {
+			enemy.anim.SetTrigger(enemy.idleHash);
+			
+			if (enemy.points.Length > 0) return State.Wander;
+			else return State.Idle;
+		}
     }
 }
