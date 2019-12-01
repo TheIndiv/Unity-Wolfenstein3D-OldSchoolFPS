@@ -98,7 +98,7 @@ public class SMGFire : MonoBehaviour
 		
 		PlayerStats.stats[4] -= 1;
 
-		int newDamage = 1 * Random.Range(1, 21);
+		int newDamage = 1 * Random.Range(30, 35);
 
 		RaycastHit raycastHit;
 		if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward), out raycastHit, Mathf.Infinity, ~(1 << 2)))

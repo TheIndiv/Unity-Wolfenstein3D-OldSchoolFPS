@@ -12,7 +12,7 @@ public class MouseLook : MonoBehaviour
     public float sensitivityY = 15.0f;
 
     private float rotX = 0;
-    private float rotY = 0;
+	private float rotY = 0;
 
     private void Start()
     {
@@ -21,7 +21,10 @@ public class MouseLook : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+	{
+		Cursor.lockState = CursorLockMode.Locked;
+		Cursor.visible = false;
+		
         Vector2 mouseXY = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         mouseDirection += mouseXY;
         //Ensures that the player cannot keep looking up and eventually have the camera be upside down. This will lock the amount the player can move in camera (in degrees) in the y-direction.

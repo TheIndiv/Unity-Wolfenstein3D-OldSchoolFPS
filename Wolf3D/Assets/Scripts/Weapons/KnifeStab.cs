@@ -36,7 +36,7 @@ public class KnifeStab : MonoBehaviour
     {
         knifeStabSound.Play();
 
-        int newDamage = 1 * Random.Range(1, 21);
+	    int newDamage = 1 * Random.Range(50, 70);
 
         RaycastHit raycastHit;
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward), out raycastHit, 0.6f, ~(1 << 2)))
