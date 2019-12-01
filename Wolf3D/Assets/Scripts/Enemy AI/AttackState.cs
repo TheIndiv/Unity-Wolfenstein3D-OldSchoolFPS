@@ -28,6 +28,12 @@ public class AttackState : BaseState
 				enemy.richAI.maxSpeed = enemy.maxMoveSpeed;
 			}
 			enemy.isHit = false;
+			
+			int index = Random.Range(0, enemy.guardHit.Length);
+			enemy.clip = enemy.guardHit[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Hit;
 		}
 		//Vector3 pos = new Vector3(enemy.player.transform.position.x, enemy.transform.position.y, enemy.player.transform.position.z);

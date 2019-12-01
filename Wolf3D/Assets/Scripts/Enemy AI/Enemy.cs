@@ -10,6 +10,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable<float>
 	public abstract float baseDamage { get; set; }
 	public abstract float maxMoveSpeed { get; set; }
 	public abstract int ammo { get; set; }
+	public AudioClip[] guardAlert;
+	public AudioClip[] guardHit;
+	public AudioClip[] guardDeath;
+	public AudioClip clip;
+	public AudioSource guardNoises;
 	
 	[HideInInspector]
 	public GameObject player;
@@ -118,11 +123,11 @@ public abstract class Enemy : MonoBehaviour, IDamageable<float>
 			//~(1 << 2)
 			if (Physics.Raycast(transform.position, dirToTarget, out raycastHit, Mathf.Infinity, layerMask))
 			{
-				Debug.DrawRay(transform.position, dirToTarget, Color.yellow, 1);
+				//Debug.DrawRay(transform.position, dirToTarget, Color.yellow, 1);
 				//If the raycast hit the player.
 				if (raycastHit.transform.gameObject.CompareTag("Player"))
 				{
-					Debug.DrawRay(transform.position, dirToTarget, Color.green, 1);
+					//Debug.DrawRay(transform.position, dirToTarget, Color.green, 1);
 					//alerted = true;
 					//Path p = ABPath.Construct(transform.position, raycastHit.transform.position);
 					//richAI.SetPath(p);

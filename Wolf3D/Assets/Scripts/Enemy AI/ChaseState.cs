@@ -21,6 +21,12 @@ public class ChaseState : BaseState
 		if (enemy.isHit)
 		{
 			enemy.isHit = false;
+			
+			int index = Random.Range(0, enemy.guardHit.Length);
+			enemy.clip = enemy.guardHit[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Hit;
 		}
 		else
@@ -36,7 +42,7 @@ public class ChaseState : BaseState
 			
 			if (distance < 10)
 			{
-				Debug.DrawRay(enemy.transform.position, (enemy.player.transform.position - enemy.transform.position), Color.white, 4);
+				//Debug.DrawRay(enemy.transform.position, (enemy.player.transform.position - enemy.transform.position), Color.white, 4);
 				float rand = Random.Range(0.0f, 1.0f);
 				if (rand < 0.75f && !CR_Running)
 				{

@@ -20,6 +20,6 @@ public class LookAtPlayer : MonoBehaviour
         //transform.LookAt(targetPosition);
 
         //This is so the sprite will not be distorted when the camera is looking at it from an angle. This way, the sprite will ALWAYS be facing the camera head on.
-        transform.forward = -cameraTransform.forward;
+	    transform.forward = -cameraTransform.forward;
     }
 }

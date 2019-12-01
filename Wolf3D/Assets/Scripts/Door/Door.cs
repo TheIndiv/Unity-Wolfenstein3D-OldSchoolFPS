@@ -105,7 +105,7 @@ public class Door : MonoBehaviour
 		{
 			if (objectsInsideCollider <= 0 && !CR_Running)
 	        {
-	            //StartCoroutine(CloseDoor());
+	            StartCoroutine(CloseDoor());
 	        }
 		}
 		else

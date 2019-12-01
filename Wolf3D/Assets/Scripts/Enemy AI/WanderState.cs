@@ -24,6 +24,12 @@ public class WanderState : BaseState
 			enemy.richAI.destination = enemy.transform.position;
 			destinationSetter.enabled = true;
 			enemy.isHit = false;
+			
+			int index = Random.Range(0, enemy.guardHit.Length);
+			enemy.clip = enemy.guardHit[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
+			
 			return State.Hit;
 		}
 		
@@ -71,6 +77,11 @@ public class WanderState : BaseState
 			}
 			
 			destinationSetter.enabled = true;
+			
+			int index = Random.Range(0, enemy.guardAlert.Length);
+			enemy.clip = enemy.guardAlert[index];
+			enemy.guardNoises.clip = enemy.clip;
+			enemy.guardNoises.Play();
 			
 			return State.Chase;
 		}

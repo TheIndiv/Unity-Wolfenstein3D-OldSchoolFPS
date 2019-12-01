@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
                                //Floor, Score, Lives, Health, Ammo, Gold Key, Blue Key, Current Weapon Image/Current Selected Weapon
-	public static int[] stats = {1,     0,     3,     100,     98,    0,        0,        1};
+	public static int[] stats = {1,     0,     3,     100,     50,    0,        0,        1};
     public GameObject[] textDisplay = new GameObject[8];
-    private int[] previousStats = {1, 0, 3, 100, 98, 0, 0, 1};
+	private int[] previousStats = {1, 0, 3, 100, 0, 0, 0, 1};
     public Texture[] weaponTexture = new Texture[4];
     public static int newExtraLife = 40000;
 
@@ -47,7 +47,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public static void giveExtraLife(AudioSource extraLifePickupSound, PickupFlash pickupFlash)
+    public static void giveExtraLife(AudioSource extraLifePickupSound, Flash pickupFlash)
     {
         extraLifePickupSound.Play();
         pickupFlash.flashScreen();
@@ -72,4 +72,9 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+    
+	public void dealDamage(int damage) {
+		stats[3] -= damage;
+		//Check if player's health is =< 0. This is Game Over...
+	}
 }
