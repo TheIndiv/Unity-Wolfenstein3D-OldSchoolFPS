@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
-	protected PickupFlash pickupFlash;
+	protected Flash pickupFlash;
 	private GameObject audioFXObject;
 	protected Dictionary<string, AudioSource> audioFX = new Dictionary<string, AudioSource>();
 	
 	void Awake()
 	{
-		pickupFlash = GameObject.FindGameObjectWithTag("FlashingPanel").GetComponent<PickupFlash>();
+		pickupFlash = GameObject.FindGameObjectWithTag("FlashingPanel").GetComponent<Flash>();
 		audioFXObject = GameObject.FindGameObjectWithTag("AudioFX");
 		
 		foreach (Transform childFX in audioFXObject.transform)

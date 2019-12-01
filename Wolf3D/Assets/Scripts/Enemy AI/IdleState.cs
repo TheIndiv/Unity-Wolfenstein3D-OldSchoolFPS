@@ -27,7 +27,6 @@ public class IdleState : BaseState
 			return State.Hit;
 		}
 		
-		Debug.Log(enemy.alerted);
 		if (enemy.alerted) 
 		{
 			destinationSetter.enabled = true;

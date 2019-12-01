@@ -96,7 +96,7 @@ public class PistolFire : MonoBehaviour
 		//fireSound.volume = Random.Range(volumeMin, volumeMax);
 		//fireSound.PlayOneShot(fireClip);
 		
-		//PlayerStats.stats[4] -= 1;
+		PlayerStats.stats[4] -= 1;
 
 		int newDamage = 1 * Random.Range(1, 21);
 
